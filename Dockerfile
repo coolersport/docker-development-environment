@@ -33,7 +33,7 @@ RUN apt-get update && \
 
 EXPOSE 22
 
-#USER 1984
+USER 1984
 
 #ENTRYPOINT []
 #CMD ["/usr/sbin/sshd", "-D"]
